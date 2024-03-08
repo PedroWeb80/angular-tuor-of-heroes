@@ -1,0 +1,6 @@
+.messages {
+    background-color: rgba(0,0,0,.1);
+    border-top: 1px solid #999;
+    min-height: 200px;
+    padding: 5px;
+}
