@@ -6,10 +6,12 @@ import { InMemoryDataService } from './services/InMemory.service';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeroesComponent } from './components/heroes/heroes.component';
+import { HeroesComponent } from './pages/heroes/heroes.component';
 import { FormsModule } from '@angular/forms';
-import { HeroDetailsComponent } from './components/hero-details/hero-details.component';
+import { HeroDetailsComponent } from './pages/hero-details/hero-details.component';
 import { MessagesComponent } from './components/messages/messages.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { MessagesComponent } from './components/messages/messages.component';
     HeroesComponent,
     HeroDetailsComponent,
     MessagesComponent,
+    DashboardComponent,
+
   ],
   imports: [
     BrowserModule,

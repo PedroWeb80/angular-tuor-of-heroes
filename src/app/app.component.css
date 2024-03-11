@@ -1,6 +1,23 @@
+nav {
+    margin-bottom: 60px;
+}
+nav > a {
+    padding: 15px;
+    background-color: #369;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 8px;
+   
+}
+nav > a:hover{
+    background-color: black;
+    
+}
+
 .messages {
     background-color: rgba(0,0,0,.1);
     border-top: 1px solid #999;
     min-height: 200px;
     padding: 5px;
+    margin-top: 60px;
 }

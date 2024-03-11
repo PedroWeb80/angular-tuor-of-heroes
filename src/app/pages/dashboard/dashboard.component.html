@@ -1,0 +1,6 @@
+<ul *ngIf="heroes">
+    <li *ngFor="let hero of heroes"><a routerLink="/details/{{hero.id}}">{{ hero.name }}</a></li>
+</ul>
+<ng-template [ngIf]="heroes.length < 1">
+    Loading......
+</ng-template>
