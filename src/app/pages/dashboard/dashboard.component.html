@@ -1,3 +1,4 @@
+<app-search-heroes (heroesEvent)="heroes = $event"></app-search-heroes>
 <ul *ngIf="heroes">
     <li *ngFor="let hero of heroes"><a routerLink="/details/{{hero.id}}">{{ hero.name }}</a></li>
 </ul>

@@ -11,6 +11,7 @@
   
   .heroes li {
     display: flex;
+    align-items: center;
   }
   
   .heroes a {
@@ -68,4 +69,10 @@
   
   .heroes .name {
     align-self: center;
+  }
+
+  .delete {
+    padding: 0;
+    color: red;
+    padding: 5px;
   }

@@ -6,4 +6,8 @@
         <input id="hero-name" [(ngModel)]="hero.name" placeholder="name">
     </div>
     <button type="button" (click)="goBack()">Voltar</button>
+    <button type="button" (click)="save()">Save</button>
 </div>
+<ng-template [ngIf]="hero == undefined">
+    Loading......
+</ng-template>
